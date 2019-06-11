@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/styles/interface.css">
+
+
+
+    <title>Console</title>
+  </head>
+  <body class="bg-dark py-4">
+    <div class="container">
+      <img src="/img/logo.png" width="400" alt="" class="mx-auto d-block">
+      <div class="card text-white bg-black shadow">
+        <div id="console" class="card-body scroll">
+          <div id="memory"></div>
+          <label for="cmd"><strong class="text-success">admin$</strong> </label>
+          <span><input id="cmd" name="cmd" type="text" class="bg-black text-white border-black"/></span>
+          <!-- <div class="input-group p-0 mt-0 mb-1">
+            <div id="cmd" class="input-group-prepend">
+              <span class="input-group-text bg-black border-black p-0"><strong class="text-success"> admin$</strong></span>
+            </div>
+            <input id="inputline" type="text" class="form-control bg-black text-white border-black p-1">
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/jquery/jquery.js"></script>
+    <script src="/popper.js/popper.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/controller.js"></script>
+  </body>
+</html>

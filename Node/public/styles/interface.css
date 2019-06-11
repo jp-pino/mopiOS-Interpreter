@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.border-black {
+  border-color: black !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.scroll {
+  min-height: 40rem;
+  max-height: 40rem;
+  overflow-y: auto;
+}
+
+.shadow {
+  -webkit-transition: box-shadow 0.25s !important; /* For Safari 3.1 to 6.0 */
+  -webkit-transition: -webkit-box-shadow 0.25s !important;
+  transition: -webkit-box-shadow 0.25s !important;
+  transition: box-shadow 0.25s !important;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s !important;
+	-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5), 0 0 27px 0 rgba(0, 0, 0, 0.3) !important;
+	        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5), 0 0 27px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+#cmd {
+  width: 90%;
+  border-width: 0 !important;
+  border-top-style: none !important;
+}
+
+#cmd:focus {
+  outline-offset: 0 !important;
+  outline-color: black !important;
+  outline-style: none !important;
+}
